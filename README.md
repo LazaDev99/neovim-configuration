@@ -116,4 +116,12 @@ Here are some key shortcuts to get started with NvChad:
 
 
 
+## 🖼️ Neovim Preview
+
+Here is how my Neovim setup looks:
+
+![Neovim Screenshot](./nvm.png)
+
+
+
 
