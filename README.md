@@ -22,7 +22,7 @@ Ensure you’re running the latest version of Neovim. Check your current version
 
 ```bash
 nvim --version
-
+```
 
 ### 🧹 1. Clean Up Old Neovim Installation
 
@@ -34,6 +34,7 @@ rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
 sudo rm -f /usr/local/bin/nvim
 sudo rm -rf /opt/nvim
+```
 
 
 
@@ -45,6 +46,7 @@ Install essential tools for building and plugin support:
 sudo apt update
 sudo apt install gcc make curl git
 sudo apt install ripgrep #optional
+```
 
 
 
@@ -58,6 +60,7 @@ cd nerd-fonts
 ./install.sh JetBrainsMono
 cd ..
 rm -rf nerd-fonts
+```
 
 
 ### 📦 4. Install Neovim (Latest)
@@ -70,6 +73,7 @@ tar -xzf nvim-linux64.tar.gz
 sudo mv nvim-linux64 /opt/nvim
 sudo ln -sf /opt/nvim/bin/nvim /usr/local/bin/nvim
 rm nvim-linux64.tar.gz
+```
 
 
 
@@ -79,6 +83,7 @@ Clone the NvChad starter configuration and open Neovim:
 
 ```bash
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+```
 
 
 
@@ -88,6 +93,7 @@ After opening Neovim, Lazy (NvChad’s plugin manager) will automatically instal
 
 ```vim
 :MasonInstallAll
+```
 
 This installs dependencies like clangd, clang-format, and codelldb for enhanced coding support.
 
